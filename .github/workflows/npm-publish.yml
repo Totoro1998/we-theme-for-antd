@@ -16,9 +16,7 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: 14
-    - name: NPM or Yarn install with caching
-      uses: bahmutov/npm-install@v1.1.0
-    - run: npm run prepublishOnly && npm publish
+    - run: npm install && npm run prepublishOnly && npm publish
       env: # More info about the environment variables in the README
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
         NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} 
