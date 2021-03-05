@@ -1,6 +1,6 @@
 {
   "name": "@njshaoshao/we-theme",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "WE Design Theme for Ant Design",
   "main": "index.js",
   "module": "index.js",
