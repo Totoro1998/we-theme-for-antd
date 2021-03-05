@@ -1,16 +1,16 @@
 {
-  "name": "@ant-design/aliyun-theme",
-  "version": "0.0.3",
-  "description": "Ant Design Theme for Aliyun console",
+  "name": "@njshaoshao/we-theme",
+  "version": "0.0.1",
+  "description": "WE Design Theme for Ant Design",
   "main": "index.js",
   "module": "index.js",
-  "homepage": "https://github.com/ant-design/ant-design-aliyun-theme",
+  "homepage": "https://github.com/lesonky/we-theme-for-antd",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ant-design/ant-design-aliyun-theme.git"
+    "url": "git+https://github.com/lesonky/we-theme-for-antd.git"
   },
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design-aliyun-theme/issues"
+    "url": "https://github.com/lesonky/we-theme-for-antd/issues"
   },
   "scripts": {
     "tsc": "tsc",
@@ -21,7 +21,7 @@
     "jest": "jest",
     "test": "npm run lint && npm run tsc && jest"
   },
-  "author": "afc163 <afc163@gmail.com>",
+  "author": "lesonky <leosnky@163.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
