@@ -16,9 +16,11 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: 14.*
+        registry-url: https://registry.npmjs.org/
     - run: npm install 
     - run: npm publish
       env: # More info about the environment variables in the README
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated 
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
