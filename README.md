@@ -1,4 +1,4 @@
-<h1 align="center">Ant Design Theme for Aliyun</h1>
+<h1 align="center">Ant Design Theme for WE-Design</h1>
 
 <div align="center">
 
