@@ -2,7 +2,6 @@
 
 <div align="center">
 
-
 Ant Design theme [variables](https://github.com/lesonky/we-theme-for-antd/blob/master/index.ts) for WE-Design.
 
 > Still being experimental, welcome to try out and help us to improve it.
@@ -12,7 +11,7 @@ Ant Design theme [variables](https://github.com/lesonky/we-theme-for-antd/blob/m
 ## Install
 
 ```bash
-$ npm install @njshaoshao/we-theme
+$ npm install @totoro/we-theme
 ```
 
 ## Usage
@@ -20,7 +19,7 @@ $ npm install @njshaoshao/we-theme
 ### webpack
 
 ```js
-import weTheme from '@njshaoshao/we-theme';
+import weTheme from '@totoro/we-theme';
 
 // webpack.config.js: less-loader
 {
@@ -36,12 +35,12 @@ import weTheme from '@njshaoshao/we-theme';
 [https://umijs.org/config/#theme](https://umijs.org/config/#theme)
 
 ```js
-import weTheme from '@njshaoshao/we-theme';
+import weTheme from '@totoro/we-theme';
 
 // config.js or .umirc.js
 export default {
-  "theme": weTheme,
-}
+  theme: weTheme,
+};
 ```
 
 > Use in Ant Design Pro: https://github.com/ant-design/ant-design-pro/pull/2946/
@@ -49,5 +48,5 @@ export default {
 ### less
 
 ```less
-@import "~@njshaoshao/we-theme/index.less";
+@import '~@totoro/we-theme/index.less';
 ```

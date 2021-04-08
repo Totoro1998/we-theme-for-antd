@@ -1,16 +1,16 @@
 {
-  "name": "@njshaoshao/we-theme",
+  "name": "@totoro/we-theme",
   "version": "1.0.0",
   "description": "WE Design Theme for Ant Design",
   "main": "index.js",
   "module": "index.js",
-  "homepage": "https://github.com/lesonky/we-theme-for-antd",
+  "homepage": "https://github.com/Totoro1998/we-theme-for-antd",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lesonky/we-theme-for-antd.git"
+    "url": "git+https://github.com/Totoro1998/we-theme-for-antd.git"
   },
   "bugs": {
-    "url": "https://github.com/lesonky/we-theme-for-antd/issues"
+    "url": "https://github.com/Totoro1998/we-theme-for-antd/issues"
   },
   "scripts": {
     "tsc": "tsc",
@@ -21,7 +21,7 @@
     "jest": "jest",
     "test": "npm run lint && npm run tsc && jest"
   },
-  "author": "lesonky <leosnky@163.com>",
+  "author": "Totoro1998",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
